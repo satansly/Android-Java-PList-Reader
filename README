@@ -1,0 +1,13 @@
+Usage:
+
+1. Rename your plist file extension to xml, otherwise it won't be read.
+
+2. Initiate the parser object and parsing process as below
+
+	PListParser parser = new PListParser(context.getResources().getAssets().open("myplist.xml"));
+
+3. Access the root element of the processed plist hierarchy as below
+
+	parser.root;
+
+        	
